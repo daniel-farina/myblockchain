@@ -1,0 +1,13 @@
+syntax = "proto3";
+package danielfarina.myblockchain.myblockchain;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/daniel-farina/myblockchain/x/myblockchain/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
